@@ -21,13 +21,12 @@ function calculate()
 
 
 
-    // if(!boxw||!boxl||!boxh||!contw||!contl||!conth)
-    // {
-    //     alert("Please enter a value in all fields")
-    // }
+    if(!boxw||!boxl||!boxh||!contw||!contl||!conth)
+    {
+        alert("Please enter a value in all fields")
+    }
 
-    // else{
-        if(1){
+    else{
         var resShort = document.getElementById("shortSide")
         var resLong = document.getElementById("longSide")
 
