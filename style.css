@@ -1,0 +1,50 @@
+.linear{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#calcbtn{
+    margin: auto;
+    display: block;
+}
+
+.containerDraw{
+    width: 8em;
+    height: 4em;
+    border: 1px solid blue;
+    z-index: -1;
+    position: relative;
+}
+
+.boxDrawLong{
+    width: 5em;
+    height: 2.5em;
+    border: 1px solid red;
+    position: relative;
+}
+
+.boxDrawShort{
+    width: 2em;
+    height: 3em;
+    border: 1px solid red;
+    position: relative;
+}
+
+.showLength{
+    font-size: 0.8em;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: 1;
+    margin: 0;
+}
+
+.showWidth{
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+}

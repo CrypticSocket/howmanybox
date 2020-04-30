@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Many Boxes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="linear">
+        <table id="boxdim">
+            <th><h2>Box Dimensions</h2></th>
+            <tr>            
+                <td><p>Enter Width : </p></td>
+                <td><input type="number" id="boxw"></td>
+                <td>
+                    <select name="unit" id="unitboxw">
+                        <option value="cm">cm</option>
+                        <option value="inch">inch</option>
+                        <option value="ft">ft</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>            
+                <td><p>Enter Length : </p></td>
+                <td><input type="number" id="boxl"></td>
+                <td>
+                    <select name="unit" id="unitboxl">
+                        <option value="cm">cm</option>
+                        <option value="inch">inch</option>
+                        <option value="ft">ft</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>            
+                <td><p>Enter Height : </p></td>
+                <td><input type="number" id="boxh"></td>
+                <td>
+                    <select name="unit" id="unitboxh">
+                        <option value="cm">cm</option>
+                        <option value="inch">inch</option>
+                        <option value="ft">ft</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table id="containerdim">
+            <th><h2>Container Dimensions</h2></th>
+            <tr>            
+                <td><p>Enter Width : </p></td>
+                <td><input type="number" id="contw"></td>
+                <td>
+                    <select name="unit" id="unitcontw">
+                        <option value="cm">cm</option>
+                        <option value="inch">inch</option>
+                        <option value="ft">ft</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>            
+                <td><p>Enter Length : </p></td>
+                <td><input type="number" id="contl"></td>
+                <td>
+                    <select name="unit" id="unitcontl">
+                        <option value="cm">cm</option>
+                        <option value="inch">inch</option>
+                        <option value="ft">ft</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>            
+                <td><p>Enter Height : </p></td>
+                <td><input type="number" id="conth"></td>
+                <td>
+                    <select name="unit" id="unitconth">
+                        <option value="cm">cm</option>
+                        <option value="inch">inch</option>
+                        <option value="ft">ft</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button id="calcbtn">Calculate</button>
+    </div>
+
+    <div id="result">
+        <h2 style="text-align: center;">Result</h2>
+        <div class="linear">
+            <div id="shortSide">
+                Press Calculate to Display Results
+            </div>
+            <div id="longSide">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
