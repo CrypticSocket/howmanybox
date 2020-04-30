@@ -19,12 +19,15 @@ function calculate()
     var unitcontl = document.getElementById("unitcontl").value
     var unitconth = document.getElementById("unitconth").value
 
-    if(!boxw||!boxl||!boxh||!contw||!contl||!conth)
-    {
-        alert("Please enter a value in all fields")
-    }
 
-    else{
+
+    // if(!boxw||!boxl||!boxh||!contw||!contl||!conth)
+    // {
+    //     alert("Please enter a value in all fields")
+    // }
+
+    // else{
+        if(1){
         var resShort = document.getElementById("shortSide")
         var resLong = document.getElementById("longSide")
 
@@ -128,13 +131,13 @@ function calculate()
 
 function converttocm(value, unit)
 {
-    if(unit.localeCompare("inch"))
+    if(unit.localeCompare("inch")==0)
     {
         value = 2.54*value
         return value
     }
 
-    else if(unit.localeCompare("ft"))
+    else if(unit.localeCompare("ft")==0)
     {
         value = 30.48*value
         return value

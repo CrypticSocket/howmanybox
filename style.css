@@ -10,23 +10,23 @@
 }
 
 .containerDraw{
-    width: 8em;
-    height: 4em;
+    width: 16em;
+    height: 8em;
     border: 1px solid blue;
     z-index: -1;
     position: relative;
 }
 
 .boxDrawLong{
-    width: 5em;
-    height: 2.5em;
+    width: 10em;
+    height: 5em;
     border: 1px solid red;
     position: relative;
 }
 
 .boxDrawShort{
-    width: 2em;
-    height: 3em;
+    width: 4em;
+    height: 6em;
     border: 1px solid red;
     position: relative;
 }
@@ -47,4 +47,8 @@
     right: 0;
     z-index: 1;
     margin: 0;
+}
+
+tr{
+    text-align: left;
 }
